@@ -173,3 +173,68 @@
       </div>
     </div>
   </div>
+
+
+
+
+
+
+
+  <!-- here is only profile detail html element -->
+
+  <div class="">
+    <!-- profile heading  -->
+    <div class="mb-7">
+      <h1 class="lg:text-3xl sm:text-xl font-bold mb-2">
+        Profile Details
+      </h1>
+      <p class="text-sm text-gray-500">
+        Add your details to create a personal touch to your profile.
+      </p>
+    </div>
+    <!-- profile heading end  -->
+
+    <!-- upload image  -->
+    <div class="sm:flex block  gap-4 justify-between items-center bg-gray-100 h-56 rounded-lg px-4 py-4 text-gray-500 mb-4">
+      <div class="sm:w-1/3 block text-sm"><h1>Profile picture</h1></div>
+      <div class="sm:w-1/3 sm:h-full h-[60%] w-1/3 my-4 bg-[url('./assets/man.jpeg')] bg-cover bg-center  rounded-lg relative">
+        <div class="absolute inset-0 bg-black opacity-50 rounded-lg"></div>
+        <div class="flex flex-col justify-center items-center h-full z-10 relative text-white text-sm ">
+          <img src="./assets/images/icon-upload-image.svg" alt="" />
+          <p class="text-center" >Change Image</p>
+        </div>
+      </div>
+      <div class="sm:w-1/3 text-[.6rem]">
+        <p>
+          Image must be below 1024x1024px. <br/>Use PNG,JPG,or BMP format.
+        </p>
+      </div>
+    </div>
+    <!-- upload image end  -->
+    <!-- info field  -->
+    <div class="">
+      <form action="" method="post">
+        <div class="bg-gray-100 py-4 px-4 rounded-lg">
+          <div class="flex flex-col sm:flex-row gap-2  sm:justify-between sm:items-center mb-4">
+            <label for="" class="w-1/3 text-sm text-gray-400">First name*</label>
+            <input type="text" class=" w-full sm:w-2/3  placeholder-gray-400 placeholder-opacity-60 py-2 px-3 border border-gray-200 rounded-lg" placeholder="Your First name" name="" id="" />
+          </div>
+          <div class="flex flex-col sm:flex-row gap-2  sm:justify-between sm:items-center mb-4">
+            <label for="" class="w-1/3 text-sm text-gray-400">First name*</label>
+            <input type="text" class=" w-full sm:w-2/3  placeholder-gray-400 placeholder-opacity-60 py-2 px-3 border border-gray-200 rounded-lg" placeholder="Your First name" name="" id="" />
+          </div>
+          <div class="flex flex-col sm:flex-row gap-2  sm:justify-between sm:items-center mb-4">
+            <label for="" class="w-1/3 text-sm text-gray-400">First name*</label>
+            <input type="text" class=" w-full sm:w-2/3  placeholder-gray-400 placeholder-opacity-60 py-2 px-3 border border-gray-200 rounded-lg" placeholder="Your First name" name="" id="" />
+          </div>
+          
+          
+        </div>
+        <!-- horizontal line  -->
+        <div class="h-[1px] border mb-4 mt-6 sm:mt-32 "></div>
+        <div class="w-full text-end ">
+          <input class="w-full sm:w-20 px-5 py-2 border rounded-lg bg-[#633CFF] text-white" type="submit" value="Save">
+        </div>
+      </form>
+    </div>
+  </div>
