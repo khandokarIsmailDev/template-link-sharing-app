@@ -1,0 +1,6 @@
+.hero-custom{
+    background-image: url('./assets/images/mobile.svg');
+    /* background-position: 6rem; */
+    height: 50rem;
+    background-repeat: no-repeat;
+  }
