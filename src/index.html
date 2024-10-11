@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="./index.css" />
   </head>
   <body class="bg-[#FAFAFA]">
-    <!-- nav section -->
-    <section class="mt-5 mb-5">
+    <!-- nav section desktop -->
+    <section class="mt-5 mb-5 hidden sm:block">
       <div class="max-w-custom-container mx-auto bg-white px-5 py-5 rounded-lg">
         <div class="flex justify-between">
           <div class="flex items-center">
@@ -66,18 +66,69 @@
     </section>
     <!-- end nav section -->
 
+    <!-- nav section mobile  -->
+    <section class="mt-5 mb-5 sm:hidden">
+      <div class="max-w-custom-container mx-auto bg-white px-5 py-5 rounded-lg">
+        <div class="flex justify-between">
+          <div class="flex items-center">
+            <img
+              class=""
+              src="./assets/images/logo-devlinks-small.svg"
+              alt=""
+            />
+          </div>
+          <div class="flex gap-1">
+            <div class="flex items-center gap-1 text-[#737373] font-medium">
+              <div class="bg-[#EFEBFF] px-3 py-2 rounded-lg">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M8.523 11.72a.749.749 0 0 1 0 1.063l-.371.371A3.751 3.751 0 1 1 2.847 7.85l1.507-1.506A3.75 3.75 0 0 1 9.5 6.188a.753.753 0 0 1-1 1.125 2.25 2.25 0 0 0-3.086.091L3.908 8.91a2.25 2.25 0 0 0 3.183 3.183l.37-.371a.748.748 0 0 1 1.062 0Zm4.63-8.874a3.756 3.756 0 0 0-5.305 0l-.371.37A.751.751 0 1 0 8.539 4.28l.372-.37a2.25 2.25 0 0 1 3.182 3.182l-1.507 1.507a2.25 2.25 0 0 1-3.086.09.753.753 0 0 0-1 1.125 3.75 3.75 0 0 0 5.144-.152l1.507-1.507a3.756 3.756 0 0 0 .002-5.307v-.001Z"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div class="flex items-center gap-1 font-medium px-5">
+              <div class="bg-[#EFEBFF] px-3 py-2 rounded-lg">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="21"
+                  height="20"
+                  fill="currentColor"
+                  viewBox="0 0 21 20"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M10.5 1.563A8.437 8.437 0 1 0 18.938 10 8.447 8.447 0 0 0 10.5 1.562ZM6.716 15.357a4.688 4.688 0 0 1 7.568 0 6.54 6.54 0 0 1-7.568 0Zm1.596-5.982a2.188 2.188 0 1 1 4.376 0 2.188 2.188 0 0 1-4.376 0Zm7.344 4.683a6.523 6.523 0 0 0-2.265-1.83 4.062 4.062 0 1 0-5.782 0 6.522 6.522 0 0 0-2.265 1.83 6.562 6.562 0 1 1 10.304 0h.008Z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="border border-[#633CFF] px-3 py-2 rounded-lg">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 20 20"><path fill="#633CFF" d="M19.61 9.62c-.03-.064-.714-1.583-2.225-3.095-2.023-2.02-4.572-3.088-7.385-3.088-2.812 0-5.362 1.068-7.382 3.088C1.106 8.037.422 9.556.391 9.62a.944.944 0 0 0 0 .761c.029.064.713 1.583 2.226 3.095 2.021 2.02 4.57 3.086 7.383 3.086 2.813 0 5.362-1.067 7.381-3.086 1.513-1.512 2.197-3.03 2.226-3.095a.946.946 0 0 0 .003-.761Zm-3.599 2.578c-1.677 1.651-3.7 2.49-6.01 2.49-2.313 0-4.334-.839-6.01-2.491A10.185 10.185 0 0 1 2.307 10a10.192 10.192 0 0 1 1.686-2.196C5.667 6.15 7.688 5.312 10 5.312s4.333.839 6.009 2.492c.659.652 1.226 1.39 1.685 2.196a10.19 10.19 0 0 1-1.685 2.197h.002Zm-6.01-5.636a3.438 3.438 0 1 0 0 6.876 3.438 3.438 0 0 0 0-6.876Zm0 5A1.562 1.562 0 1 1 10 8.438a1.562 1.562 0 0 1 0 3.124Z"/></svg>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- nav mobile end  -->
+
     <!-- hero section  -->
     <section>
       <div class="max-w-custom-container mx-auto">
-
-        <!-- profile detail  -->
         <div class="flex gap-5">
-          <div
-            class="lg:w-5/12 md:w-1/2 hidden md:block bg-white rounded-lg"
-          >
-          <!-- mobile mock  -->
-            <div class="hero-custom lg:bg-[6rem]  md:bg-[2rem] relative">
-              <div class="flex absolute lg:left-[8.7rem] md:left-[4.5rem] top-40">
+          <div class="lg:w-5/12 md:w-1/2 hidden md:block bg-white rounded-lg">
+            <!-- mobile mock  -->
+            <div class="hero-custom lg:bg-[6rem] md:bg-[2rem] relative">
+              <div
+                class="flex absolute lg:left-[8.7rem] md:left-[4.5rem] top-40"
+              >
                 <div class="text-center">
                   <div class="w-24 h-24 mb-4 bg-gray-200 rounded-full mx-auto">
                     <img src="" alt="" />
@@ -185,9 +236,12 @@
             </div>
             <!-- mobile mock end  -->
           </div>
-          <div
-            class="lg:w-7/12 md:w-1/2 w-full bg-white rounded-lg px-6 py-10"
-          >
+          <div class="lg:w-7/12 md:w-1/2 w-full bg-white rounded-lg px-6 py-10">
+            <!-- profile detail  -->
+            <!-- ----- -->
+            <!-- profile detail end  -->
+
+            <!-- Links start -->
             <div class="">
               <!-- heading  -->
               <div class="mb-7">
@@ -195,15 +249,305 @@
                   Customize your links
                 </h1>
                 <p class="text-sm text-gray-500">
-                  Add/edit/remove links below and then share all your profiles with the world!
+                  Add/edit/remove links below and then share all your profiles
+                  with the world!
                 </p>
               </div>
               <!-- heading end  -->
+              <!-- Add links start  -->
+              <div class="mb-5">
+                <button
+                  class="w-full text-center border border-[#633cff] py-3 rounded-lg text-[#633cff] font-medium transition-all hover:bg-[#633cff] hover:text-white"
+                >
+                  + Add new link
+                </button>
+              </div>
+              <!-- Add links end  -->
+
+              <!-- list items  -->
+
+              <div class="">
+                <div class="max-h-96 overflow-auto">
+                  <div class="mb-5">
+                    <div class="bg-gray-100 p-4 rounded-lg">
+                      <div class="flex justify-between">
+                        <div class="flex gap-2 text-gray-500">
+                          <img
+                            src="./assets/images/icon-drag-and-drop.svg"
+                            alt=""
+                          />
+                          <p class="font-medium text-gray-500">Link #1</p>
+                        </div>
+                        <p class="text-gray-500 font-light">Remove</p>
+                      </div>
+                      <!-- dropdown start -->
+
+                      <div class="mt-3">
+                        <label for="platform" class="block text-gray-700 mb-1"
+                          >Platform</label
+                        >
+                        <div class="relative inline-block w-full">
+                          <button
+                            id="dropdownButton"
+                            class="block w-full bg-white border border-gray-300 text-gray-700 py-2 px-3 rounded-md focus:ring-2 focus:ring-[#633CFF] flex justify-between items-center"
+                          >
+                            <span class="flex items-center gap-2">
+                              <!-- Image tag for the selected logo -->
+                              <img
+                                id="selectedLogo"
+                                src=""
+                                alt=""
+                                class="h-5 w-5 hidden"
+                              />
+                              <span id="selectedText">Select a platform</span>
+                            </span>
+                            <img
+                              src="./assets/images/icon-chevron-down.svg"
+                              alt="arrow"
+                              class="ml-2 h-5 w-5"
+                            />
+                          </button>
+
+                          <div
+                            id="dropdownMenu"
+                            class="absolute mt-1 w-full bg-white border border-gray-300 rounded-md shadow-lg hidden"
+                          >
+                            <ul class="py-1">
+                              <li>
+                                <button
+                                  class="flex items-center gap-2 w-full px-4 py-2 text-gray-700 hover:bg-gray-100"
+                                  data-value="github"
+                                  data-logo="./assets/images/github-gray.svg"
+                                >
+                                  <img
+                                    src="./assets/images/github-gray.svg"
+                                    alt="GitHub"
+                                    class="h-5 w-5"
+                                  />
+                                  <span>GitHub</span>
+                                </button>
+                              </li>
+                              <li>
+                                <button
+                                  class="flex items-center gap-2 w-full px-4 py-2 text-gray-700 hover:bg-gray-100"
+                                  data-value="platform2"
+                                  data-logo=""
+                                >
+                                  Platform 2
+                                </button>
+                              </li>
+                              <li>
+                                <button
+                                  class="flex items-center gap-2 w-full px-4 py-2 text-gray-700 hover:bg-gray-100"
+                                  data-value="platform3"
+                                  data-logo=""
+                                >
+                                  Platform 3
+                                </button>
+                              </li>
+                              <li>
+                                <button
+                                  class="flex items-center gap-2 w-full px-4 py-2 text-gray-700 hover:bg-gray-100"
+                                  data-value="platform4"
+                                  data-logo=""
+                                >
+                                  Platform 4
+                                </button>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- dropdown end  -->
+                      <div class="mt-3">
+                        <label for="platform" class="block text-gray-700 mb-1"
+                          >Link</label
+                        >
+                        <div
+                          class="flex gap-2 items-center bg-white p-2 rounded-lg border"
+                        >
+                          <img src="./assets/images/icon-link.svg" alt="" />
+                          <input
+                            class="w-full"
+                            type="text"
+                            name=""
+                            placeholder="www.github.com"
+                            id=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="mb-4">
+                    <div class="bg-gray-100 p-4 rounded-lg">
+                      <div class="flex justify-between">
+                        <div class="flex gap-2 text-gray-500">
+                          <img
+                            src="./assets/images/icon-drag-and-drop.svg"
+                            alt=""
+                          />
+                          <p class="font-medium text-gray-500">Link #1</p>
+                        </div>
+                        <p class="text-gray-500 font-light">Remove</p>
+                      </div>
+                      <!-- dropdown start -->
+
+                      <div class="mt-3">
+                        <label for="platform" class="block text-gray-700 mb-1"
+                          >Platform</label
+                        >
+                        <div class="relative inline-block w-full">
+                          <button
+                            id="dropdownButton"
+                            class="block w-full bg-white border border-gray-300 text-gray-700 py-2 px-3 rounded-md focus:ring-2 focus:ring-[#633CFF] flex justify-between items-center"
+                          >
+                            <span class="flex items-center gap-2">
+                              <!-- Image tag for the selected logo -->
+                              <img
+                                id="selectedLogo"
+                                src=""
+                                alt=""
+                                class="h-5 w-5 hidden"
+                              />
+                              <span id="selectedText">Select a platform</span>
+                            </span>
+                            <img
+                              src="./assets/images/icon-chevron-down.svg"
+                              alt="arrow"
+                              class="ml-2 h-5 w-5"
+                            />
+                          </button>
+
+                          <div
+                            id="dropdownMenu"
+                            class="absolute mt-1 w-full bg-white border border-gray-300 rounded-md shadow-lg hidden"
+                          >
+                            <ul class="py-1">
+                              <li>
+                                <button
+                                  class="flex items-center gap-2 w-full px-4 py-2 text-gray-700 hover:bg-gray-100"
+                                  data-value="github"
+                                  data-logo="./assets/images/github-gray.svg"
+                                >
+                                  <img
+                                    src="./assets/images/github-gray.svg"
+                                    alt="GitHub"
+                                    class="h-5 w-5"
+                                  />
+                                  <span>GitHub</span>
+                                </button>
+                              </li>
+                              <li>
+                                <button
+                                  class="flex items-center gap-2 w-full px-4 py-2 text-gray-700 hover:bg-gray-100"
+                                  data-value="platform2"
+                                  data-logo=""
+                                >
+                                  Platform 2
+                                </button>
+                              </li>
+                              <li>
+                                <button
+                                  class="flex items-center gap-2 w-full px-4 py-2 text-gray-700 hover:bg-gray-100"
+                                  data-value="platform3"
+                                  data-logo=""
+                                >
+                                  Platform 3
+                                </button>
+                              </li>
+                              <li>
+                                <button
+                                  class="flex items-center gap-2 w-full px-4 py-2 text-gray-700 hover:bg-gray-100"
+                                  data-value="platform4"
+                                  data-logo=""
+                                >
+                                  Platform 4
+                                </button>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- dropdown end  -->
+                      <div class="mt-3">
+                        <label for="platform" class="block text-gray-700 mb-1"
+                          >Link</label
+                        >
+                        <div
+                          class="flex gap-2 items-center bg-white p-2 rounded-lg border"
+                        >
+                          <img src="./assets/images/icon-link.svg" alt="" />
+                          <input
+                            class="w-full"
+                            type="text"
+                            name=""
+                            placeholder="www.github.com"
+                            id=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- horizontal line  -->
+                <div class="h-[1px] border mb-4 mt-6 sm:mt-32"></div>
+                <div class="w-full text-end">
+                  <input
+                    class="w-full sm:w-20 px-5 py-2 border rounded-lg bg-[#633CFF] text-white"
+                    type="submit"
+                    value="Save"
+                  />
+                </div>
+              </div>
+
+              <!-- list items end  -->
             </div>
+            <!-- Links end  -->
           </div>
         </div>
-        <!-- profile detail end  -->
       </div>
     </section>
   </body>
+  <script>
+    const dropdownButton = document.getElementById("dropdownButton");
+    const dropdownMenu = document.getElementById("dropdownMenu");
+    const selectedText = document.getElementById("selectedText");
+    const selectedLogo = document.getElementById("selectedLogo");
+
+    dropdownButton.addEventListener("click", () => {
+      dropdownMenu.classList.toggle("hidden");
+    });
+
+    document.querySelectorAll("#dropdownMenu button").forEach((item) => {
+      item.addEventListener("click", function () {
+        const text = this.querySelector("span")
+          ? this.querySelector("span").textContent
+          : this.textContent;
+        const logoSrc = this.getAttribute("data-logo");
+
+        selectedText.textContent = text;
+
+        if (logoSrc) {
+          selectedLogo.src = logoSrc;
+          selectedLogo.classList.remove("hidden");
+        } else {
+          selectedLogo.classList.add("hidden");
+        }
+
+        dropdownMenu.classList.add("hidden");
+      });
+    });
+
+    // Close the dropdown if clicking outside
+    window.addEventListener("click", (event) => {
+      if (
+        !dropdownButton.contains(event.target) &&
+        !dropdownMenu.contains(event.target)
+      ) {
+        dropdownMenu.classList.add("hidden");
+      }
+    });
+  </script>
 </html>
